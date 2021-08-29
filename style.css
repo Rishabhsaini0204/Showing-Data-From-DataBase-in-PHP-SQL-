@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  overflow: scroll;
+  background: #f1f5f8;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.error{
+  color: red;
+}
+h2{
+    font-size: 44px;
+    margin-bottom: 20px;
+  text-align: center;
+}
+h3{
+    font-size: 100px;
+  text-align: center;
+  color: red;
+}
+h1{
+  font-size: 200px;
+  background: aqua;
+  text-align: center;
+}
+
+.card{
+  background-color: #ffffff;
+  width: 50%;
+  left: 53%;
+  text-align: center;
+  padding: 10px 22px;
+  margin-bottom: 21px;
+  border: 1px solid black;
+  border-radius: 14px;
+  margin-left: 300px;
+  box-shadow: 0 0 10px 2px;
+}
+.card-body{
+    margin-left: 80px;;
+}
+
+.form-control{
+  background-color: #f8f9fa;
+  width: 252px;
+  padding: 15px 12px;
+  margin-left: 11px;
+  margin-bottom: 1.3rem;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+
+.form-control:focus {
+    color: #000000;
+    background-color: #ffffff;
+    border: 3px solid #da5767;
+    outline: 0;
+    box-shadow: none;
+}
+
+.btn{
+    padding: 0.6rem 1.2rem;
+    border: 2px solid #110f0f;
+    border-radius: 9px;
+    margin-left: 26px;
+    cursor: pointer;
+}
+.btn-primary:hover {   
+    background-color: #000000;
+    color: white;
+    border-radius: 9px;
+   transition: .3s;
+
+}
+.class-gender{
+  display: inline-block;
+}
+.titlegender{
+  margin-right: 15px;
+  font-size: 21px;
+  font-family: initial;
+}
+.hob{
+  margin-right: 10px;
+}
+.title-hobby{
+  margin-right: 15px;
+  font-size: 21px;
+  font-family: initial;
+}
+.class-checkbox{
+  display: inline-flex;
+  margin-top: 16px;
+  margin-left: 15px;
+  align-items: baseline;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.d-flex{ 
+  margin-top: 15px;
+  display: inline-flex;
+  align-items: baseline;
+  flex-direction: row;
+}
+.d-flex2{ 
+  margin-top: 29px;
+  margin-left: 135px;
+  display: inline-flex;
+}
+.d-flex3{
+margin-top: 29px;
+    margin-left: 550px;
+    display: inline-flex;
+}
+
+a{
+  border: 2px solid black;
+  padding: 7px;
+  color: black;
+  border-radius: 11px;
+  font-size: 15px;
+  text-decoration: none;
+}
+a:hover{
+color: white;
+background: black;
+transition: .3s;
+}
+
+.table{
+  width: 80%;
+  border: 5px solid black;
+  box-shadow: 0 0 15px 10px grey;
+  text-align: center;
+  margin-top: 67px;
+  margin-left: 141px;
+}
+.table-head{
+  background: #0cff3587;
+  color: black;
+  font-weight: bold;
+
+}
+.link{
+  margin-right: 10px;;
+}
