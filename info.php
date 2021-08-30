@@ -11,7 +11,7 @@ if($connection){
     $mobile =$_POST['mobile'];
     $designation =$_POST['designation'];
     $gender =$_POST['gender'];;
-    $hobbies ='Dancing ';
+    $hobbies =implode(',',$_POST['hobies']);
     $data="INSERT INTO  user_info (FNAME,LNAME,EMAIL,DOB,MOBILE,DESIGNATION,GENDER,HOBBIES) VALUES('$fistname','$lastname','$email','$dob','$mobile','$designation','$gender','$hobbies')";
     mysqli_query($connection, $data);
     header('location:thankyou.php');
